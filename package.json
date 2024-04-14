@@ -1,0 +1,30 @@
+{
+  "name": "@chyvacheck/generate_qr",
+  "version": "0.1.0",
+  "author": {
+    "name": "chyvacheck",
+    "email": "dmytro.4or.dev@gmail.com"
+  },
+  "license": "MIT",
+  "description": "A simple CLI tool to generate QR-code",
+  "main": "generateQR.js",
+  "bin": {
+    "generateQR": "./bin/generateQR"
+  },
+  "dependencies": {
+    "qr-image": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/qr-image": "^3.2.9",
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "CLI",
+    "generate qr code",
+    "generate qr",
+    "qr code",
+    "QR"
+  ],
+  "private": false
+}
